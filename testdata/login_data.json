@@ -1,0 +1,15 @@
+[
+  {
+    "email" : "gvd@test.com",
+    "password": "Gvd@1399",
+    "expected_url": "dashboard",
+    "expected_error": null
+  },
+
+  {
+    "email" : "gvd@test.com",
+    "password": "Gvd1399",
+    "expected_url": null,
+    "expected_error": "Incorrect email or password"
+  }
+]

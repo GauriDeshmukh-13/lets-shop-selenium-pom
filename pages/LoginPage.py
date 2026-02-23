@@ -32,4 +32,7 @@ class LoginPage:
     def click_login(self):
         click = self.wait.until(EC.element_to_be_clickable(self.login_button))
         click.click()
-        self.wait.until(EC.url_contains('dashboard'))
+
+    def get_error_message(self):
+        login_error = self.wait.until(EC.presence_of_element_located(self.login_error))
+        return login_error.text
