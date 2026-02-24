@@ -1,6 +1,9 @@
 import pytest
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+
+from pages.Cart_Page import CartPage
+from pages.Product_Page import ProductPage
 from utils.data_reader import load_test_data
 from pages.LoginPage import LoginPage
 

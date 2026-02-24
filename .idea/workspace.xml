@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1d203dc-501a-4017-93cf-7adb87bd43b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testdata/login_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/data_reader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lets-shop-selenium-pom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lets-shop-selenium-pom.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Cart_Page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Product_Page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_dashboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_e2e.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/LoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/testlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_login.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
