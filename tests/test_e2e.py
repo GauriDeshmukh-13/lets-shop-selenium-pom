@@ -1,3 +1,4 @@
+import allure
 import pytest
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -7,6 +8,8 @@ from pages.Cart_Page import CartPage
 @pytest.mark.usefixtures("setup", "login_user")
 class TestCartFlow:
 
+    @allure.title("Verify product can be added to cart")
+    @allure.severity(allure.severity_level.CRITICAL)
     def add_products_to_cart(self):
         add_products = ProductPage(self.driver)
         add_products.add_product_to_cart("IPHONE 13 PRO")

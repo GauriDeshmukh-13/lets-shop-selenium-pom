@@ -1,3 +1,4 @@
+import allure
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -21,14 +22,17 @@ class LoginPage:
     def load(self):
         self.driver.get("https://rahulshettyacademy.com/client/#/auth/login")
 
+    @allure.step("Entering email")
     def enter_email(self,email_id):
         email = self.wait.until(EC.visibility_of_element_located(self.email))
         email.send_keys(email_id)
 
+    @allure.step("Entering password")
     def enter_password(self,pwd):
         password = self.wait.until(EC.visibility_of_element_located(self.password))
         password.send_keys(pwd)
 
+    @allure.step("Clicking login button")
     def click_login(self):
         click = self.wait.until(EC.element_to_be_clickable(self.login_button))
         self.driver.execute_script("arguments[0].click();", click)
