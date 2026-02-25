@@ -31,3 +31,4 @@ class TestShop:
         else:
             error_message = login.get_error_message()
             assert data["expected_error"] in error_message
+
